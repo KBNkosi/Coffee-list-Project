@@ -16,7 +16,7 @@ This project is a Coffee Listing Page built with React, Tailwind CSS, and Vite. 
 
 ```sh
 git clone https://github.com/your-username/coffee-listing-page.git
-cd coffee-listing-page
+cd coffee-list-project
 
 2. Install dependencies:
 
