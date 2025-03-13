@@ -1,6 +1,6 @@
 import { useState } from "react";
-import starFilled from '/images/star-filled.png';
-import starEmpty from '/images/star-empty.png';
+import starFilled from '../assets/images/star-filled.png';
+import starEmpty from '../assets/images/star-empty.png';
 
 
 export default function Card(props) {
