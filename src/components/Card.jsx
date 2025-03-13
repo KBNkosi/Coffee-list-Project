@@ -1,4 +1,7 @@
 import { useState } from "react";
+import starFilled from '/images/star-filled.png';
+import starEmpty from '/images/star-empty.png';
+
 
 export default function Card(props) {
   const [image, setImage] = useState(true);
@@ -7,7 +10,7 @@ export default function Card(props) {
     setImage((prevImageState) => !prevImageState);
   }
 
-  const img = image ? "star-filled.png" : "star-empty.png";
+  const img = image ? starFilled : starEmpty;
 
   return (
     <>
@@ -37,7 +40,7 @@ export default function Card(props) {
         <div className="flex justify-start mt-2">
           <button onClick={toggleImage}>
             <img
-              src={`/images/${img}`}
+              src={img}
               alt="Rating"
               className="w-5 h-5"
             />
